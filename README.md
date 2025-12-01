@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AIFIX ESG Platform Landing Page
 
-## Getting Started
+Next.js 15 + React + TypeScript + Tailwind CSS 기반의 랜딩 페이지 프로젝트입니다.
 
-First, run the development server:
+## 기술 스택
+
+- **Framework**: Next.js 15
+- **UI Library**: React 19
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Package Manager**: pnpm
+
+## 시작하기
+
+### 필수 요구사항
+
+- Node.js 18.17 이상
+- pnpm 9.0.0 이상
+
+### 설치
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# 의존성 설치
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 개발 서버 실행
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+브라우저에서 [http://localhost:3000](http://localhost:3000)을 열어 확인하세요.
 
-## Learn More
+### 빌드
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+pnpm build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 프로덕션 실행
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+pnpm start
+```
 
-## Deploy on Vercel
+## 프로젝트 구조
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+.
+├── app/                    # Next.js App Router
+│   ├── layout.tsx         # 루트 레이아웃
+│   ├── page.tsx           # 홈 페이지
+│   └── globals.css        # 전역 스타일
+├── src/
+│   └── components/        # React 컴포넌트
+│       ├── ui/           # UI 컴포넌트
+│       └── ...
+├── public/                # 정적 파일
+├── next.config.js         # Next.js 설정
+├── tailwind.config.ts     # Tailwind CSS 설정
+└── tsconfig.json          # TypeScript 설정
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 주요 기능
+
+- 반응형 디자인
+- 다크 모드 지원 (next-themes)
+- 컴포넌트 기반 아키텍처
+- TypeScript 타입 안정성
+
+## 라이선스
+
+Private

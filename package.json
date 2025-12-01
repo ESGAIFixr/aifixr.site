@@ -1,12 +1,12 @@
 {
-  "name": "my-app",
+  "name": "aifix-esg-platform-landing-page",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.3",
@@ -35,35 +35,33 @@
     "@radix-ui/react-toggle": "^1.1.2",
     "@radix-ui/react-toggle-group": "^1.1.2",
     "@radix-ui/react-tooltip": "^1.1.8",
-    "axios": "^1.13.2",
     "class-variance-authority": "^0.7.1",
-    "clsx": "*",
+    "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "embla-carousel-react": "^8.6.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.487.0",
-    "next": "^16.0.1",
+    "next": "^15.0.0",
     "next-themes": "^0.4.6",
-    "react": "^19.2.0",
+    "react": "^19.0.0",
     "react-day-picker": "^8.10.1",
-    "react-dom": "^19.2.0",
+    "react-dom": "^19.0.0",
     "react-hook-form": "^7.55.0",
     "react-resizable-panels": "^2.1.7",
     "recharts": "^2.15.2",
     "sonner": "^2.0.3",
-    "tailwind-merge": "*",
-    "vaul": "^1.1.2",
-    "zustand": "^5.0.8"
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss": "^3.4.17",
+    "vaul": "^1.1.2"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.0.1",
-    "tailwindcss": "^4",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.2.2"
-  }
+    "@types/node": "^20.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "eslint-config-next": "^15.0.0",
+    "postcss": "^8.4.47",
+    "typescript": "^5.6.3"
+  },
+  "packageManager": "pnpm@9.0.0"
 }
